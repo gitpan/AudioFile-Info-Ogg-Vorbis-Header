@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: AudioFile-Info-Ogg-Vorbis-Header
-version: 1.01
+version: 1.02
 license: perl
 distribution_type: module
 requires:
@@ -17,5 +17,5 @@ provides:
     file: lib/AudioFile/Info/Build.pm
   AudioFile::Info::Ogg::Vorbis::Header:
     file: lib/AudioFile/Info/Ogg/Vorbis/Header.pm
-    version: 1.01
+    version: 1.02
 generated_by: Module::Build version 0.20

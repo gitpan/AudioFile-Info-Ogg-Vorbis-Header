@@ -1,3 +1,8 @@
+2003-09-29 12:10  dave
+
+	* lib/AudioFile/Info/Ogg/Vorbis/Header.pm (1.2): Fixed docs.
+	* Changes (1.2), META.yml (1.2): Not needed in CVS.
+
 2003-09-29 08:32  dave
 
 	* lib/AudioFile/Info/Build.pm (1.2): Retrieve config details from
