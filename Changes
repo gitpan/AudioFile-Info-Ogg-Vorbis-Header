@@ -1,0 +1,19 @@
+2003-09-29 08:32  dave
+
+	* lib/AudioFile/Info/Build.pm (1.2): Retrieve config details from
+	note.
+	* Build.PL (1.2): Moved config section to a note.
+
+2003-09-29 08:26  dave
+
+	* Build.PL (1.1.1.1), Changes (1.1.1.1), MANIFEST (1.1.1.1),
+	META.yml (1.1.1.1), Makefile.PL (1.1.1.1), README (1.1.1.1),
+	lib/AudioFile/Info/Build.pm (1.1.1.1),
+	lib/AudioFile/Info/Ogg/Vorbis/Header.pm (1.1.1.1), t/1.t (1.1.1.1),
+	t/test.ogg (1.1.1.1): Ogg::Vorbis::Header plugin for
+	AudioFile::Info.
+	* Build.PL (1.1), Changes (1.1), MANIFEST (1.1), META.yml (1.1),
+	Makefile.PL (1.1), README (1.1), lib/AudioFile/Info/Build.pm (1.1),
+	lib/AudioFile/Info/Ogg/Vorbis/Header.pm (1.1), t/1.t (1.1),
+	t/test.ogg (1.1): Initial revision
+
