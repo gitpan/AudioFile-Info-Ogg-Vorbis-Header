@@ -11,7 +11,7 @@ use Ogg::Vorbis::Header;
 require Inline;
 Inline->init;
 
-our $VERSION = sprintf "%d.%02d", '$Revision: 1.2 $ ' =~ /(\d+)\.(\d+)/;
+our $VERSION = sprintf "%d.%02d", '$Revision: 1.3 $ ' =~ /(\d+)\.(\d+)/;
 
 my %data = (artist => 'artist',
             title  => 'title',
@@ -39,7 +39,6 @@ sub AUTOLOAD {
 
   return ($_[0]->{obj}->comment($data{$sub}))[0];
 }
-
 
 1;
 __END__
