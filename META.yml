@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: AudioFile-Info-Ogg-Vorbis-Header
-version: 1.04
+version: 1.05
 author:
   - Dave Cross, E<lt>dave@dave.org.ukE<gt>
 abstract: Perl extension to get info from
@@ -17,5 +17,5 @@ provides:
     file: lib/AudioFile/Info/Build.pm
   AudioFile::Info::Ogg::Vorbis::Header:
     file: lib/AudioFile/Info/Ogg/Vorbis/Header.pm
-    version: 1.04
+    version: 1.05
 generated_by: Module::Build version 0.23

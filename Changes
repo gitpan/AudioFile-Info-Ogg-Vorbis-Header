@@ -1,3 +1,9 @@
+2004-02-25 08:27  dave
+
+	* lib/AudioFile/Info/Ogg/Vorbis/Header.pm (1.5): Fixed check for
+	attribute existence
+	* Makefile.PL (1.2): Removed
+
 2004-02-17 18:48  dave
 
 	* lib/AudioFile/Info/Ogg/Vorbis/Header.pm (1.4): Added ability to
@@ -23,14 +29,14 @@
 	* lib/AudioFile/Info/Build.pm (1.2): Retrieve config details from
 	note.
 	* Build.PL (1.2): Moved config section to a note.
+	* Build.PL (1.1), Changes (1.1), MANIFEST (1.1), META.yml (1.1),
+	Makefile.PL (1.1), README (1.1), lib/AudioFile/Info/Build.pm (1.1),
+	lib/AudioFile/Info/Ogg/Vorbis/Header.pm (1.1), t/1.t (1.1),
+	t/test.ogg (1.1): Initial revision
 	* Build.PL (1.1.1.1), Changes (1.1.1.1), MANIFEST (1.1.1.1),
 	META.yml (1.1.1.1), Makefile.PL (1.1.1.1), README (1.1.1.1),
 	lib/AudioFile/Info/Build.pm (1.1.1.1),
 	lib/AudioFile/Info/Ogg/Vorbis/Header.pm (1.1.1.1), t/1.t (1.1.1.1),
 	t/test.ogg (1.1.1.1): Ogg::Vorbis::Header plugin for
 	AudioFile::Info.
-	* Build.PL (1.1), Changes (1.1), MANIFEST (1.1), META.yml (1.1),
-	Makefile.PL (1.1), README (1.1), lib/AudioFile/Info/Build.pm (1.1),
-	lib/AudioFile/Info/Ogg/Vorbis/Header.pm (1.1), t/1.t (1.1),
-	t/test.ogg (1.1): Initial revision
 
