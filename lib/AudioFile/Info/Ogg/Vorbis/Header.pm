@@ -1,3 +1,21 @@
+#
+# $Id: Header.pm,v 1.6 2005/03/01 14:00:44 dave Exp $
+#
+
+=head1 NAME
+
+AudioFile::Info::Ogg::Vorbis::Header - Perl extension to get info from
+Ogg Vorbis files.
+
+=head1 DESCRIPTION
+
+Extracts data from an Ogg Vorbis file using the CPAN module
+Ogg::Vorbis::Header.
+
+See L<AudioFile::Info> for more details.
+
+=cut
+
 package AudioFile::Info::Ogg::Vorbis::Header;
 
 use 5.006;
@@ -11,7 +29,7 @@ use Ogg::Vorbis::Header;
 require Inline;
 Inline->init;
 
-our $VERSION = sprintf "%d.%02d", '$Revision: 1.5 $ ' =~ /(\d+)\.(\d+)/;
+our $VERSION = sprintf "%d.%02d", '$Revision: 1.6 $ ' =~ /(\d+)\.(\d+)/;
 
 my %data = (artist => 'artist',
             title  => 'title',
@@ -51,18 +69,6 @@ sub AUTOLOAD {
 
 1;
 __END__
-
-=head1 NAME
-
-AudioFile::Info::Ogg::Vorbis::Header - Perl extension to get info from
-Ogg Vorbis files.
-
-=head1 DESCRIPTION
-
-Extracts data from an Ogg Vorbis file using the CPAN module
-Ogg::Vorbis::Header.
-
-See L<AudioFile::Info> for more details.
 
 =head1 AUTHOR
 
