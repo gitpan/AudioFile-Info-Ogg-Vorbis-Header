@@ -1,5 +1,5 @@
 #
-# $Id: Header.pm,v 1.6 2005/03/01 14:00:44 dave Exp $
+# $Id: Header.pm,v 1.7 2006/06/15 20:24:02 dave Exp $
 #
 
 =head1 NAME
@@ -29,7 +29,7 @@ use Ogg::Vorbis::Header;
 require Inline;
 Inline->init;
 
-our $VERSION = sprintf "%d.%02d", '$Revision: 1.6 $ ' =~ /(\d+)\.(\d+)/;
+our $VERSION = sprintf "%d.%02d", '$Revision: 1.7 $ ' =~ /(\d+)\.(\d+)/;
 
 my %data = (artist => 'artist',
             title  => 'title',
@@ -69,6 +69,13 @@ sub AUTOLOAD {
 
 1;
 __END__
+
+=head1 METHODS
+
+=head2 new
+
+Creates a new object of class AudioFile::Info::Ogg::Vorbis::Header. Usually
+called by AudioFile::Info::new.
 
 =head1 AUTHOR
 
