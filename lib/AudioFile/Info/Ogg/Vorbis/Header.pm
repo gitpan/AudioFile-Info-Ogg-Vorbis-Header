@@ -1,5 +1,5 @@
 #
-# $Id: Header.pm,v 1.7 2006/06/15 20:24:02 dave Exp $
+# $Id: Header.pm 22 2008-04-20 07:33:23Z dave $
 #
 
 =head1 NAME
@@ -29,14 +29,14 @@ use Ogg::Vorbis::Header;
 require Inline;
 Inline->init;
 
-our $VERSION = sprintf "%d.%02d", '$Revision: 1.7 $ ' =~ /(\d+)\.(\d+)/;
+our $VERSION = sprintf "%d", '$Revision: 22 $ ' =~ /(\d+)/;
 
-my %data = (artist => 'artist',
-            title  => 'title',
-            album  => 'album',
-            track  => 'tracknumber',
-            year   => 'date',
-            genre  => 'genre');
+my %data = (artist => 'ARTIST',
+            title  => 'TITLE',
+            album  => 'ALBUM',
+            track  => 'TRACKNUMBER',
+            year   => 'DATE',
+            genre  => 'GENRE');
 
 sub new {
   my $class = shift;

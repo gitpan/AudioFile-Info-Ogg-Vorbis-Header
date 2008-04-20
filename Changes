@@ -1,42 +1,75 @@
-2004-02-25 08:27  dave
+2008-04-20  dave
 
-	* lib/AudioFile/Info/Ogg/Vorbis/Header.pm (1.5): Fixed check for
-	  attribute existence
-	* Makefile.PL (1.2): Removed
+	* [r24] t/test.ogg:
+	  Set svn:mime-type to application/ogg. Removed svn:eol-style and
+	  svn:executable.
+	* [r23] Build.PL:
+	  Tidy Build.PL.
+	  Add dist_version.
+	  Add YAML tp prereqs.
+	* [r22] lib/AudioFile/Info/Build.pm,
+	  lib/AudioFile/Info/Ogg/Vorbis/Header.pm:
+	  Switched to using svn version numbers.
+	  Added $VERSION to AudioFile::Info::Build.
+	* [r21] Build.PL, MANIFEST, README:
+	  Removed svn:executable from MANFEST, Build.PL and README.
 
-2004-02-17 18:48  dave
+2006-06-15  dave
 
-	* lib/AudioFile/Info/Ogg/Vorbis/Header.pm (1.4): Added ability to
-	  write data.
-	* lib/AudioFile/Info/Build.pm (1.3): Changed feature weightings
-	* Build.PL (1.4), MANIFEST (1.2): Various build changes.
-	* t/: 1_read.t (1.1), 2_write.t (1.1): New test files.
-	* t/1.t (1.2): Replaced by 1_read.t
+	* [r20] MANIFEST, lib/AudioFile/Info/Build.pm,
+	  lib/AudioFile/Info/Ogg/Vorbis/Header.pm, t/4_pod_coverage.t:
+	  Added t/4_pod_coverage.t.
+	  Added pod to Build.pm and Header.pm
 
-2003-09-29 21:57  dave
+2005-03-01  dave
 
-	* lib/AudioFile/Info/Ogg/Vorbis/Header.pm (1.3): Fixed config
-	  defintion.
-	* Build.PL (1.3): Fixed config definition.
+	* [r19] MANIFEST, lib/AudioFile/Info/Ogg/Vorbis/Header.pm,
+	  t/3_pod.t:
+	  Added pod tests
 
-2003-09-29 12:10  dave
+2004-02-25  dave
 
-	* lib/AudioFile/Info/Ogg/Vorbis/Header.pm (1.2): Fixed docs.
-	* Changes (1.2), META.yml (1.2): Not needed in CVS.
+	* [r18] lib/AudioFile/Info/Ogg/Vorbis/Header.pm:
+	  Fixed check for attribute existence
+	* [r17] Makefile.PL:
+	  Removed
 
-2003-09-29 08:32  dave
+2004-02-17  dave
 
-	* lib/AudioFile/Info/Build.pm (1.2): Retrieve config details from
-	  note.
-	* Build.PL (1.2): Moved config section to a note.
-	* Build.PL (1.1), Changes (1.1), MANIFEST (1.1), META.yml (1.1),
-	  Makefile.PL (1.1), README (1.1), lib/AudioFile/Info/Build.pm
-	  (1.1), lib/AudioFile/Info/Ogg/Vorbis/Header.pm (1.1), t/1.t
-	  (1.1), t/test.ogg (1.1): Initial revision
-	* Build.PL (1.1.1.1), Changes (1.1.1.1), MANIFEST (1.1.1.1),
-	  META.yml (1.1.1.1), Makefile.PL (1.1.1.1), README (1.1.1.1),
-	  lib/AudioFile/Info/Build.pm (1.1.1.1),
-	  lib/AudioFile/Info/Ogg/Vorbis/Header.pm (1.1.1.1), t/1.t
-	  (1.1.1.1), t/test.ogg (1.1.1.1): Ogg::Vorbis::Header plugin for
-	  AudioFile::Info.
+	* [r16] lib/AudioFile/Info/Ogg/Vorbis/Header.pm:
+	  Added ability to write data.
+	* [r15] lib/AudioFile/Info/Build.pm:
+	  Changed feature weightings
+	* [r14] Build.PL, MANIFEST:
+	  Various build changes.
+	* [r13] t/1_read.t, t/2_write.t:
+	  New test files.
+	* [r12] t/1.t:
+	  Replaced by 1_read.t
+
+2003-09-29  dave
+
+	* [r11] lib/AudioFile/Info/Ogg/Vorbis/Header.pm:
+	  Fixed config defintion.
+	* [r10] Build.PL:
+	  Fixed config definition.
+	* [r9] lib/AudioFile/Info/Ogg/Vorbis/Header.pm:
+	  Fixed docs.
+	* [r8] Changes, META.yml:
+	  Not needed in CVS.
+	* [r7] lib/AudioFile/Info/Build.pm:
+	  Retrieve config details from note.
+	* [r6] Build.PL:
+	  Moved config section to a note.
+	* [r2] Build.PL, Changes, MANIFEST, META.yml, Makefile.PL, README,
+	  lib, lib/AudioFile, lib/AudioFile/Info,
+	  lib/AudioFile/Info/Build.pm, lib/AudioFile/Info/Ogg,
+	  lib/AudioFile/Info/Ogg/Vorbis,
+	  lib/AudioFile/Info/Ogg/Vorbis/Header.pm, t, t/1.t, t/test.ogg:
+	  Initial revision
+
+2003-09-29  
+
+	* [r1] .:
+	  New repository initialized by cvs2svn.
 
